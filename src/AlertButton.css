@@ -1,4 +1,5 @@
 .alertButton {
+  margin-right: 8px; /* Add margin between buttons */
   background-color: #007bff;
   color: #fff;
   border: none;
@@ -11,3 +12,6 @@
 .alertButton:hover {
   background-color: #0056b3;
 }
+.alertButton:last-child {
+    margin-right: 0; /* Remove margin from the last button */
+  }
